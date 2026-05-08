@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth *)",
+      "PowerShell(gh auth *)",
+      "PowerShell(gh repo *)",
+      "PowerShell($b64 = [Convert]::ToBase64String\\([System.Text.Encoding]::UTF8.GetBytes\\(\"\"\\)\\); gh api repos/zooskin/DataPersistence-HansooKim-18026001/contents/README.md --method PUT --field message=\"Add empty README.md\" --field \"content=$b64\")",
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(git pull *)",
+      "Bash(git branch *)",
+      "Bash(git add *)"
+    ]
+  }
+}
